@@ -3,6 +3,14 @@ package main
 import "fmt"
 import "math"
 
+/*	Go source file for recreating the Square root function in the Math standard library.
+	"Sqrt" is the function created to mimic the function.
+
+	@Todos
+	- Fix the bugs currently faced.
+	- Build in memoization for the Sqrt function
+*/
+
 // Shorthand function to calculate square of a value
 var SQ = func(input float64) (output float64) { return input * input }
 
